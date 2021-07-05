@@ -1,0 +1,46 @@
+@import-normalize;
+@import "helper";
+$red: #f00;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:before{
+  box-sizing: border-box;
+}
+*:after{
+  box-sizing: border-box;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+html{
+  height: 100%;
+}
+body{
+  font-size: 16px;
+  font-family: $font-hei;
+  line-height: 1.2;
+  height: 100%;
+}
+#root{
+  height: 100%;
+}
+:focus{
+  outline: none;
+}
+.icon{
+  width: 1em;
+  height: 1em;
+}
+
+@media all and (min-width:450px){
+  body{
+    background-color: #fafafa !important;
+  }
+}
